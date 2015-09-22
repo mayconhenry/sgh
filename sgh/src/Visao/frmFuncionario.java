@@ -725,7 +725,7 @@ public class frmFuncionario extends javax.swing.JInternalFrame {
         seleccionado=cbxStatus.getSelectedIndex();
         dts.setStatus((String)cbxStatus.getItemAt(seleccionado));
         
-        if (acao.equals("guardar")) {
+        if (acao.equals("salvar")) {
             if (func.insertar(dts)) {
                 JOptionPane.showMessageDialog(rootPane, "Funcionario cadastrado com sucesso!");
                 mostrar("");

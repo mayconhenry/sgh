@@ -19,7 +19,7 @@ public class Conexao {
     public String db = "sisHotel";
     public String url = "jdbc:mysql://127.0.0.1/" + db;
     public String user = "root";
-    public String pass = "marcio12";
+    public String pass = "maycon";
 
     public Conexao() {
     }
