@@ -62,6 +62,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/Inicio.png"))); // NOI18N
         jMenu9.setText("Inicio");
 
+        jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F1, 0));
         jMenuItem1.setText("Cadastro Suites");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,6 +72,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu9.add(jMenuItem1);
         jMenu9.add(jSeparator1);
 
+        jMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F2, 0));
         jMenuItem7.setText("Cadastro de Produto");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,6 +82,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu9.add(jMenuItem7);
         jMenu9.add(jSeparator2);
 
+        jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F3, 0));
         jMenuItem8.setBackground(new java.awt.Color(255, 102, 0));
         jMenuItem8.setText("Cadastro de Clientes");
         jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
@@ -90,6 +93,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu9.add(jMenuItem8);
         jMenu9.add(jSeparator3);
 
+        jMenuItem9.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F4, 0));
         jMenuItem9.setText("Funcionário");
         jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,6 +107,7 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/Archivo.png"))); // NOI18N
         jMenu10.setText("Arquivo");
 
+        jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F5, 0));
         jMenuItem2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/habitaciones.png"))); // NOI18N
         jMenuItem2.setText("Suites");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
@@ -121,8 +126,14 @@ public class FrmPrincipal extends javax.swing.JFrame {
         jMenu1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/Reservas.png"))); // NOI18N
         jMenu1.setText("Reservas");
 
+        jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F7, 0));
         jMenuItem4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/reservas-consumos.png"))); // NOI18N
-        jMenuItem4.setText("Reservas e Consumo");
+        jMenuItem4.setText("Reservas de quartos");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
         jMenu1.add(jMenuItem4);
 
         jMenuItem5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/clientes.png"))); // NOI18N
@@ -217,6 +228,13 @@ public class FrmPrincipal extends javax.swing.JFrame {
         form.toFront();
         form.setVisible(true);
     }//GEN-LAST:event_jMenuItem9ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        frmReserva form =new frmReserva();
+        escritorio.add(form);
+        form.toFront();
+        form.setVisible(true);// TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -16,6 +16,7 @@ public class fsuites {
     private String sSQL = "";
     public Integer totalregistros;
 
+    
     public DefaultTableModel mostrar(String buscar) {
         DefaultTableModel modelo;
 

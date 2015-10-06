@@ -531,7 +531,7 @@ public class frmFuncionario extends javax.swing.JInternalFrame {
             }
         });
 
-        btnExcluir.setBackground(new java.awt.Color(51, 51, 51));
+        btnExcluir.setBackground(new java.awt.Color(255, 0, 0));
         btnExcluir.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         btnExcluir.setForeground(new java.awt.Color(255, 255, 255));
         btnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/eliminar.png"))); // NOI18N

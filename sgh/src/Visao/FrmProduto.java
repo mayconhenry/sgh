@@ -147,7 +147,7 @@ public class FrmProduto extends javax.swing.JInternalFrame {
             }
         });
 
-        btnExcluir.setBackground(new java.awt.Color(51, 51, 51));
+        btnExcluir.setBackground(new java.awt.Color(255, 0, 0));
         btnExcluir.setFont(new java.awt.Font("Lucida Grande", 1, 14)); // NOI18N
         btnExcluir.setForeground(new java.awt.Color(255, 255, 255));
         btnExcluir.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagem/eliminar.png"))); // NOI18N
@@ -295,8 +295,7 @@ public class FrmProduto extends javax.swing.JInternalFrame {
                                 .addComponent(btnNovo, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(btnSalvar, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(0, 0, Short.MAX_VALUE)
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(btncancelar, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(txtPreco, javax.swing.GroupLayout.DEFAULT_SIZE, 347, Short.MAX_VALUE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
